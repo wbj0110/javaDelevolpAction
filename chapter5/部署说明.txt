@@ -1,0 +1,6 @@
+
+1. 将mysql.sql导入数据库，建立系列数据库
+2. 下载安装JBoss 3.2
+3. 将mysql-ds.xml拷贝到server/default/deploy目录下
+4. 将CmpSUB.ear拷贝到server/default/deploy目录下
+

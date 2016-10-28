@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ===================================================================== -->
+<!--                                                                       -->
+<!--  JBoss Server Configuration                                           -->
+<!--                                                                       -->
+<!-- ===================================================================== -->
+
+<!-- $Id: mysql-ds.xml,v 1.1 2002/07/22 22:57:24 d_jencks Exp $ -->
+<!-- ==================================================================== -->
+<!--  Datasource config for MySQL using 2.0.11 driver                     -->
+<!-- ==================================================================== -->
+
+
+<datasources>
+  <local-tx-datasource>
+    <jndi-name>MySqlDS</jndi-name>
+    <connection-url>jdbc:mysql://localhost:3306/carinfo</connection-url>
+    <driver-class>com.mysql.jdbc.Driver</driver-class>
+    <user-name>banq</user-name>
+    <password>225034b1</password>
+  </local-tx-datasource>
+
+  <local-tx-datasource>
+    <jndi-name>Sequence</jndi-name>
+    <connection-url>jdbc:mysql://localhost:3306/sequence</connection-url>
+    <driver-class>com.mysql.jdbc.Driver</driver-class>
+    <user-name>banq</user-name>
+    <password>225034b1</password>
+  </local-tx-datasource>
+
+  <local-tx-datasource>
+    <jndi-name>Security</jndi-name>
+    <connection-url>jdbc:mysql://localhost:3306/security</connection-url>
+    <driver-class>com.mysql.jdbc.Driver</driver-class>
+    <user-name>banq</user-name>
+    <password>225034b1</password>
+  </local-tx-datasource>
+
+
+  
+  <local-tx-datasource>
+    <jndi-name>SSODS</jndi-name>
+    <connection-url>jdbc:mysql://localhost:3306/ssodb</connection-url>
+    <driver-class>com.mysql.jdbc.Driver</driver-class>
+    <user-name>banq</user-name>
+    <password>225034b1</password>
+  </local-tx-datasource>
+  
+  <local-tx-datasource>
+    <jndi-name>CmpSUBDS</jndi-name>
+    <connection-url>jdbc:mysql://localhost:3306/cmpcustomer</connection-url>
+    <driver-class>com.mysql.jdbc.Driver</driver-class>
+    <user-name>banq</user-name>
+    <password>225034b1</password>
+  </local-tx-datasource>  
+
+  <local-tx-datasource>
+    <jndi-name>AccountDS</jndi-name>
+    <connection-url>jdbc:mysql://localhost:3306/bank</connection-url>
+    <driver-class>com.mysql.jdbc.Driver</driver-class>
+    <user-name>banq</user-name>
+    <password>225034b1</password>
+  </local-tx-datasource>  
+  
+  
+
+</datasources>

@@ -1,0 +1,2 @@
+本包提供了书籍中大部分源代码，先安装数据库mysql.sql,然后配置Jboss的mysqlds.xml，
+使用Jbuilder可以打开本包源码，JBuilder将自动建立EJB项目。
